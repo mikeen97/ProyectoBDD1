@@ -60,3 +60,4 @@ C:\Users\miguel\Desktop\ProyectoBDD1\GUI_V_2\GUI_V_2\obj\Debug\ProjectDataBaseI.
 C:\Users\miguel\Desktop\ProyectoBDD1\GUI_V_2\GUI_V_2\obj\Debug\ProjectDataBaseI.csproj.CoreCompileInputs.cache
 C:\Users\miguel\Desktop\ProyectoBDD1\GUI_V_2\GUI_V_2\obj\Debug\GUI_V_2.exe
 C:\Users\miguel\Desktop\ProyectoBDD1\GUI_V_2\GUI_V_2\obj\Debug\GUI_V_2.pdb
+C:\Users\miguel\Desktop\ProyectoBDD1\GUI_V_2\GUI_V_2\obj\Debug\GUI_V_2.TecnicoFind.resources

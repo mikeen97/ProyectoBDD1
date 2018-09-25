@@ -16,5 +16,11 @@ namespace GUI_V_2
         {
             InitializeComponent();
         }
+        conexion cn = new conexion();
+        private void button4_Click(object sender, EventArgs e)
+        {
+            cn.ExecuteQuery("EXECUTE DELETE_EMPLEADO " + txt_dni.Text + ";");
+            
+        }
     }
 }
