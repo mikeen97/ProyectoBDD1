@@ -45,13 +45,14 @@
             this.button4.ForeColor = System.Drawing.Color.White;
             this.button4.Image = ((System.Drawing.Image)(resources.GetObject("button4.Image")));
             this.button4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button4.Location = new System.Drawing.Point(1336, 693);
+            this.button4.Location = new System.Drawing.Point(1002, 618);
             this.button4.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(667, 95);
             this.button4.TabIndex = 21;
             this.button4.Text = "ELIMINAR TECNICO";
             this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // txt_dni
             // 

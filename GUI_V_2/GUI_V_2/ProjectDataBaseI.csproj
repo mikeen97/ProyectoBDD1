@@ -181,6 +181,12 @@
     <Compile Include="TecnicoDelete.Designer.cs">
       <DependentUpon>TecnicoDelete.cs</DependentUpon>
     </Compile>
+    <Compile Include="TecnicoFind.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TecnicoFind.Designer.cs">
+      <DependentUpon>TecnicoFind.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="ControladorAereoAdd.resx">
       <DependentUpon>ControladorAereoAdd.cs</DependentUpon>
     </EmbeddedResource>
@@ -255,6 +261,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="TecnicoDelete.resx">
       <DependentUpon>TecnicoDelete.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TecnicoFind.resx">
+      <DependentUpon>TecnicoFind.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

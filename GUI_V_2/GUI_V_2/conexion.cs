@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Data;
 using System.Data.SqlClient;
 using System.Windows.Forms;
 
@@ -9,6 +10,8 @@ namespace GUI_V_2
     public class conexion
     {
         public SqlConnection connect;
+        SqlDataAdapter da;
+       DataTable dt;
         public conexion(String username, String password)
         {
 
@@ -27,6 +30,11 @@ namespace GUI_V_2
                 Console.WriteLine(e.ToString());
             }
 
+        }
+
+       public SqlConnection con()
+        {
+            return connect;
         }
         public conexion()
         {
@@ -84,7 +92,21 @@ namespace GUI_V_2
 
 
         }
+        public void cargarTabla(DataGridView dtvg,String sql)
+        {
+            try
+            {
+                da = new SqlDataAdapter(sql, connect);
+                dt = new DataTable();
+                da.Fill(dt);
+                dtvg.DataSource = dt;
+            }
+            catch(Exception e)
+            {
+                MessageBox.Show(e.Message);
+            }
 
+        }
         public void ExecuteQuery(String query)
         {
             try

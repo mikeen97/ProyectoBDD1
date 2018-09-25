@@ -16,5 +16,11 @@ namespace GUI_V_2
         {
             InitializeComponent();
         }
+        conexion cn = new conexion();
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            cn.ExecuteQuery("EXECUTE DELETE_MODELO " + text_num.Text + ";");
+        }
     }
 }
