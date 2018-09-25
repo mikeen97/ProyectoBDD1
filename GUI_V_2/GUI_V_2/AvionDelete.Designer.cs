@@ -29,19 +29,11 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AvionDelete));
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.label2 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
+            this.txt_numRegistroAvion = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
-            // 
-            // comboBox1
-            // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(1022, 554);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(490, 39);
-            this.comboBox1.TabIndex = 13;
             // 
             // label2
             // 
@@ -69,6 +61,7 @@
             this.button1.TabIndex = 11;
             this.button1.Text = "ELIMINAR AVION";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label1
             // 
@@ -81,17 +74,24 @@
             this.label1.TabIndex = 10;
             this.label1.Text = "AVIONES";
             // 
-            // DeleteAvion
+            // txt_numRegistroAvion
+            // 
+            this.txt_numRegistroAvion.Location = new System.Drawing.Point(1000, 554);
+            this.txt_numRegistroAvion.Name = "txt_numRegistroAvion";
+            this.txt_numRegistroAvion.Size = new System.Drawing.Size(545, 38);
+            this.txt_numRegistroAvion.TabIndex = 14;
+            // 
+            // AvionDelete
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 31F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(2375, 1107);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.txt_numRegistroAvion);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "DeleteAvion";
+            this.Name = "AvionDelete";
             this.Text = "DeleteAvion";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -99,10 +99,9 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox txt_numRegistroAvion;
     }
 }

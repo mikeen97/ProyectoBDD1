@@ -26,7 +26,7 @@ namespace GUI_V_2
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            cn.ExecuteQuery("EXECUTE INSERT_AVION " + txtRegistro.Text+ "," + cbNumRegistroAviones.Text + ";");
         }
 
         private void label2_Click(object sender, EventArgs e)
@@ -50,6 +50,23 @@ namespace GUI_V_2
 
             cn.desconectar();
             
+        }
+
+        private void button2_Click_1(object sender, EventArgs e)
+        {
+            cn.ExecuteQuery("EXECUTE UPDATE_AVION "+ txtRegistro.Text + "," + cbNumRegistroAviones.Text + ";");
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            SqlDataReader reader = cn.getQuery("Select * From AVIONES WHERE NUM_REGISTRO=" + txtRegistro.Text + ";");
+            while (reader.Read())
+            {
+                txtRegistro.Text = reader.GetInt32(0) + "";
+                cbNumRegistroAviones.Text = reader.GetInt32(1) + "";
+
+            }
+            cn.desconectar();
         }
     }
 }
