@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Runtime.InteropServices;
+using System.Data.SqlClient;
 
 namespace GUI_V_2
 {
@@ -15,6 +16,7 @@ namespace GUI_V_2
     {
 
         bool logmaster, log;
+        int dni = 0;
         conexion cn = new conexion();
 
         PruebasAdd prueb = new PruebasAdd();
@@ -142,9 +144,36 @@ namespace GUI_V_2
             BtnConectar.Visible = false;
             BtnDesconectar.Visible = true;
         }
-
+        public bool user_Exist(String user, String password)
+        {
+            SqlDataReader reader = cn.getQuery("Select username,password FROM USUARIOS;");
+            String ussern="", pass="";
+            while (reader.Read())
+            {
+                ussern =(String)reader.GetSqlString(0);
+                pass = (String)reader.GetSqlString(1);
+                MessageBox.Show(ussern + " " + pass);
+               /* if(ussern.Equals(user) && pass.Equals(password))
+                {
+                    dni = reader.GetInt32(2);
+                    return true;
+                }*/
+            }
+            return false;
+        }
         private void BtnDesconectar_Click(object sender, EventArgs e)
         {
+            if (user_Exist(username.Text, password.Text))
+            {
+                lbluser.Text = username.Text;
+                SqlDataReader reader = cn.getQuery("Select correo FROM TECNICOS_EU WHERE DNI="+dni+";");
+                Console.WriteLine(reader.GetString(0));
+
+
+
+            }
+            cn.desconectar();
+
             BtnConectar.Visible = true;
             BtnDesconectar.Visible = false;
         }

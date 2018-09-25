@@ -33,8 +33,8 @@
             this.BtnDesconectar = new System.Windows.Forms.Button();
             this.BtnConectar = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.password = new System.Windows.Forms.TextBox();
+            this.username = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
@@ -47,7 +47,6 @@
             this.lblcorreo = new System.Windows.Forms.Label();
             this.lbluser = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.lblusuario = new System.Windows.Forms.Label();
             this.BtnEmpleados = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
@@ -78,8 +77,8 @@
             this.MenuVertical.Controls.Add(this.BtnDesconectar);
             this.MenuVertical.Controls.Add(this.BtnConectar);
             this.MenuVertical.Controls.Add(this.button1);
-            this.MenuVertical.Controls.Add(this.textBox2);
-            this.MenuVertical.Controls.Add(this.textBox1);
+            this.MenuVertical.Controls.Add(this.password);
+            this.MenuVertical.Controls.Add(this.username);
             this.MenuVertical.Controls.Add(this.label6);
             this.MenuVertical.Controls.Add(this.label5);
             this.MenuVertical.Controls.Add(this.label4);
@@ -90,7 +89,6 @@
             this.MenuVertical.Controls.Add(this.lblcorreo);
             this.MenuVertical.Controls.Add(this.lbluser);
             this.MenuVertical.Controls.Add(this.pictureBox2);
-            this.MenuVertical.Controls.Add(this.lblusuario);
             this.MenuVertical.Controls.Add(this.BtnEmpleados);
             this.MenuVertical.Controls.Add(this.button3);
             this.MenuVertical.Controls.Add(this.button2);
@@ -157,22 +155,22 @@
             this.button1.Text = "MASTER";
             this.button1.UseVisualStyleBackColor = true;
             // 
-            // textBox2
+            // password
             // 
-            this.textBox2.Location = new System.Drawing.Point(78, 491);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(1);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.PasswordChar = '?';
-            this.textBox2.Size = new System.Drawing.Size(133, 20);
-            this.textBox2.TabIndex = 26;
+            this.password.Location = new System.Drawing.Point(78, 491);
+            this.password.Margin = new System.Windows.Forms.Padding(1);
+            this.password.Name = "password";
+            this.password.PasswordChar = '?';
+            this.password.Size = new System.Drawing.Size(133, 20);
+            this.password.TabIndex = 26;
             // 
-            // textBox1
+            // username
             // 
-            this.textBox1.Location = new System.Drawing.Point(78, 445);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(1);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(133, 20);
-            this.textBox1.TabIndex = 25;
+            this.username.Location = new System.Drawing.Point(78, 445);
+            this.username.Margin = new System.Windows.Forms.Padding(1);
+            this.username.Name = "username";
+            this.username.Size = new System.Drawing.Size(133, 20);
+            this.username.TabIndex = 25;
             // 
             // label6
             // 
@@ -320,18 +318,6 @@
             this.pictureBox2.TabIndex = 15;
             this.pictureBox2.TabStop = false;
             this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
-            // 
-            // lblusuario
-            // 
-            this.lblusuario.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.lblusuario.AutoSize = true;
-            this.lblusuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblusuario.ForeColor = System.Drawing.Color.White;
-            this.lblusuario.Location = new System.Drawing.Point(72, 729);
-            this.lblusuario.Name = "lblusuario";
-            this.lblusuario.Size = new System.Drawing.Size(45, 16);
-            this.lblusuario.TabIndex = 14;
-            this.lblusuario.Text = "Cargo";
             // 
             // BtnEmpleados
             // 
@@ -549,12 +535,11 @@
         private System.Windows.Forms.Label lblcorreo;
         private System.Windows.Forms.Label lbluser;
         private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.Label lblusuario;
         private System.Windows.Forms.Button btnTecnicos;
         private System.Windows.Forms.Panel SubMenu;
         private System.Windows.Forms.Button btnControladorAereo;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox password;
+        private System.Windows.Forms.TextBox username;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;

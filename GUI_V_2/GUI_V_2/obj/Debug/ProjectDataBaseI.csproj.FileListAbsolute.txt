@@ -29,3 +29,34 @@ C:\Users\miguel\Desktop\ProyectBaseDeDatosFinal\GUI_V_2\GUI_V_2\obj\Debug\Projec
 C:\Users\miguel\Desktop\ProyectBaseDeDatosFinal\GUI_V_2\GUI_V_2\obj\Debug\ProjectDataBaseI.csproj.CoreCompileInputs.cache
 C:\Users\miguel\Desktop\ProyectBaseDeDatosFinal\GUI_V_2\GUI_V_2\obj\Debug\GUI_V_2.exe
 C:\Users\miguel\Desktop\ProyectBaseDeDatosFinal\GUI_V_2\GUI_V_2\obj\Debug\GUI_V_2.pdb
+C:\Users\Fernando Mendez\Desktop\PRoect\ProyectoBDD1\GUI_V_2\GUI_V_2\bin\Debug\GUI_V_2.exe.config
+C:\Users\Fernando Mendez\Desktop\PRoect\ProyectoBDD1\GUI_V_2\GUI_V_2\bin\Debug\GUI_V_2.exe
+C:\Users\Fernando Mendez\Desktop\PRoect\ProyectoBDD1\GUI_V_2\GUI_V_2\bin\Debug\GUI_V_2.pdb
+C:\Users\Fernando Mendez\Desktop\PRoect\ProyectoBDD1\GUI_V_2\GUI_V_2\obj\Debug\ProjectDataBaseI.csprojAssemblyReference.cache
+C:\Users\Fernando Mendez\Desktop\PRoect\ProyectoBDD1\GUI_V_2\GUI_V_2\obj\Debug\GUI_V_2.ControladorAereoAdd.resources
+C:\Users\Fernando Mendez\Desktop\PRoect\ProyectoBDD1\GUI_V_2\GUI_V_2\obj\Debug\GUI_V_2.AvionDelete.resources
+C:\Users\Fernando Mendez\Desktop\PRoect\ProyectoBDD1\GUI_V_2\GUI_V_2\obj\Debug\GUI_V_2.AvionFind.resources
+C:\Users\Fernando Mendez\Desktop\PRoect\ProyectoBDD1\GUI_V_2\GUI_V_2\obj\Debug\GUI_V_2.ControladorAereoDelete.resources
+C:\Users\Fernando Mendez\Desktop\PRoect\ProyectoBDD1\GUI_V_2\GUI_V_2\obj\Debug\GUI_V_2.ControladorAereoFind.resources
+C:\Users\Fernando Mendez\Desktop\PRoect\ProyectoBDD1\GUI_V_2\GUI_V_2\obj\Debug\GUI_V_2.Master.resources
+C:\Users\Fernando Mendez\Desktop\PRoect\ProyectoBDD1\GUI_V_2\GUI_V_2\obj\Debug\GUI_V_2.MenuAvion.resources
+C:\Users\Fernando Mendez\Desktop\PRoect\ProyectoBDD1\GUI_V_2\GUI_V_2\obj\Debug\GUI_V_2.MenuControladorAereo.resources
+C:\Users\Fernando Mendez\Desktop\PRoect\ProyectoBDD1\GUI_V_2\GUI_V_2\obj\Debug\GUI_V_2.MenuModelos.resources
+C:\Users\Fernando Mendez\Desktop\PRoect\ProyectoBDD1\GUI_V_2\GUI_V_2\obj\Debug\GUI_V_2.MenuPruebas.resources
+C:\Users\Fernando Mendez\Desktop\PRoect\ProyectoBDD1\GUI_V_2\GUI_V_2\obj\Debug\GUI_V_2.MenuTecnico.resources
+C:\Users\Fernando Mendez\Desktop\PRoect\ProyectoBDD1\GUI_V_2\GUI_V_2\obj\Debug\GUI_V_2.ModeloDelete.resources
+C:\Users\Fernando Mendez\Desktop\PRoect\ProyectoBDD1\GUI_V_2\GUI_V_2\obj\Debug\GUI_V_2.ModeloFind.resources
+C:\Users\Fernando Mendez\Desktop\PRoect\ProyectoBDD1\GUI_V_2\GUI_V_2\obj\Debug\GUI_V_2.Principal.resources
+C:\Users\Fernando Mendez\Desktop\PRoect\ProyectoBDD1\GUI_V_2\GUI_V_2\obj\Debug\GUI_V_2.ModeloAdd.resources
+C:\Users\Fernando Mendez\Desktop\PRoect\ProyectoBDD1\GUI_V_2\GUI_V_2\obj\Debug\GUI_V_2.InicioResumen.resources
+C:\Users\Fernando Mendez\Desktop\PRoect\ProyectoBDD1\GUI_V_2\GUI_V_2\obj\Debug\GUI_V_2.AvionAdd.resources
+C:\Users\Fernando Mendez\Desktop\PRoect\ProyectoBDD1\GUI_V_2\GUI_V_2\obj\Debug\GUI_V_2.Properties.Resources.resources
+C:\Users\Fernando Mendez\Desktop\PRoect\ProyectoBDD1\GUI_V_2\GUI_V_2\obj\Debug\GUI_V_2.PruebaDelete.resources
+C:\Users\Fernando Mendez\Desktop\PRoect\ProyectoBDD1\GUI_V_2\GUI_V_2\obj\Debug\GUI_V_2.PruebasAdd.resources
+C:\Users\Fernando Mendez\Desktop\PRoect\ProyectoBDD1\GUI_V_2\GUI_V_2\obj\Debug\GUI_V_2.PruebasFind.resources
+C:\Users\Fernando Mendez\Desktop\PRoect\ProyectoBDD1\GUI_V_2\GUI_V_2\obj\Debug\GUI_V_2.TecnicoAdd.resources
+C:\Users\Fernando Mendez\Desktop\PRoect\ProyectoBDD1\GUI_V_2\GUI_V_2\obj\Debug\GUI_V_2.TecnicoDelete.resources
+C:\Users\Fernando Mendez\Desktop\PRoect\ProyectoBDD1\GUI_V_2\GUI_V_2\obj\Debug\ProjectDataBaseI.csproj.GenerateResource.cache
+C:\Users\Fernando Mendez\Desktop\PRoect\ProyectoBDD1\GUI_V_2\GUI_V_2\obj\Debug\ProjectDataBaseI.csproj.CoreCompileInputs.cache
+C:\Users\Fernando Mendez\Desktop\PRoect\ProyectoBDD1\GUI_V_2\GUI_V_2\obj\Debug\GUI_V_2.exe
+C:\Users\Fernando Mendez\Desktop\PRoect\ProyectoBDD1\GUI_V_2\GUI_V_2\obj\Debug\GUI_V_2.pdb
